@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    padding: 40px 80px;
+}
+
+section form{
+    width: 50%;
+}
+
+section form h2{
+    margin-bottom: 20px;
+}
+
+section form label{
+    margin-top: 15px;
+    display: block;
+}
+
+section form input{
+    border: 1px solid black;
+    border-radius: 4px;
+    display: block;
+    padding: 5px;
+    width: 60%;
+}
+
+section form p{
+    font-style: italic;
+    color: #e76f51;
+    font-size: 14px;
+}
+
+section form .create:hover{
+    cursor: pointer;
+}
+
+section form .create{
+    background-color: #219ebc;
+    display: inline-block;
+    padding: 5px 15px;
+    margin-top: 20px;    
+    color: white;
+    border: none;
+    width: 10%;
+}
+
+section form a{
+    background-color: #e3e3e3;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: black;
+}

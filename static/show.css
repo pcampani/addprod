@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    padding: 40px 80px;
+}
+
+section div{
+    margin: 0px auto 20px auto;
+    width: 50%;
+}
+
+section div h2, section div p{
+    padding: 10px;
+}
+
+section div .label{
+    vertical-align: top;
+    width: 20%;
+}
+
+section div p{
+    display: inline-block;
+    width: 70%;
+}
+
+section div .edit{
+    background-color: #219ebc;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+    margin-left: 8px;
+    color: white;
+}
+
+section div a{
+    background-color: #e3e3e3;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+    color: black;
+}

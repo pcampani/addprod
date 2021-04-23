@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    padding: 40px 80px;
+}
+
+section div{
+    margin: 0 auto;
+    width: 50%;
+}
+
+section div h2, section div p{
+    padding: 10px;
+}
+
+section div .label{
+    vertical-align: top;
+    width: 20%;
+}
+
+section div p{
+    display: inline-block;
+    width: 70%;
+}
+
+section .buttons{
+    text-align: center;
+    padding: 20px;
+}
+
+section .buttons .delete{
+    background-color: #d00000;
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 4px;
+    color: white;
+}
+
+section .buttons a{
+    background-color: #dadada;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-right: 30px;
+    color: black;
+}
